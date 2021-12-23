@@ -46,7 +46,8 @@ When including the log information, please ensure you have run the command with 
 <p>
 
 ~~~sh
-PLACE LOG CONTENT HERE - WE NEED _ALL_ DETAILED OUTPUT BASED ON THE ABOVE TO BE ABLE TO PROVIDE SUPPORT (YOU WILL FIND THAT IN THE $env:ChocolateyInstall\logs\chocolatey.log between the `=====`)
+IF YOUR LOG CONTENT IS SHORT, PLACE IT HERE - WE NEED _ALL_ DETAILED OUTPUT BASED ON THE ABOVE TO BE ABLE TO PROVIDE SUPPORT (YOU WILL FIND THAT IN THE $env:ChocolateyInstall\logs\chocolatey.log between the `=====`)
+IF YOUR LOG CONTENT IS LONG, PLEASE LINK TO A GIST (see https://docs.github.com/en/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 ~~~
 
 </p>
