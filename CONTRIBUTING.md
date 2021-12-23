@@ -59,7 +59,7 @@ The process for contributions is roughly as follows:
  * You agree to follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 #### Definition of Trivial Contributions
-It's hard to define what is a trivial contribution. Sometimes even a 1 character change can be considered significant. Unfortunately because it can be subjective, the decision on what is trivial comes from the committers of the project and not from folks contributing to the project. It is generally safe to assume that you may be subject to signing the [CLA](https://cla-assistant.io/chocolatey/choco) and be prepared to do so. Ask in advance if you are not sure and for reasons are not able to sign the [CLA](https://cla-assistant.io/chocolatey/choco).
+It's hard to define what is a trivial contribution. Sometimes even a 1 character change can be considered significant. Unfortunately because it can be subjective, the decision on what is trivial comes from the committers of the project and not from folks contributing to the project. It is generally safe to assume that you may be subject to signing the CLA and be prepared to do so. Ask in advance if you are not sure and for reasons are not able to sign the CLA.
 
 What is generally considered trivial:
 
