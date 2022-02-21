@@ -11,12 +11,9 @@ A summary of our expectations:
 
 THANKS! We appreciate you reading the entire Contributing document and not just scanning through it.
 
-Name your issue appropriately: give it a sentence that reads well enough for anyone seeing this in release notes to know what the issue is.
+Name your pull request appropriately: give it a sentence that reads well enough for anyone seeing this.
 
-When writing out the pull request details please ensure you are writing it as
-if you were explaining it to somebody else.
-Even if you will be working on and resolving the issue yourself.
-This helps others to understand the reasons for the pull request and for it to be searchable in future.
+if you were explaining it to somebody else. This helps others to understand the reasons for the pull request and for it to be searchable in future.
 
 Please do not remove any of the headings.
 If a heading is not applicable then enter N/A: Why it's not applicable

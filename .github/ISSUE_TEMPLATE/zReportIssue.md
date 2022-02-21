@@ -22,6 +22,19 @@ pull request and for it to be searchable in future.
 ### What is Expected?
 
 ### How Did You Get This To Happen? (Steps to Reproduce)
+<!--
+Add the steps that allows US to reproduce your problem. For example.
+
+1. I ran this command `choco source list`
+1. No sources were displayed.
+1. I then ran this command `choco blah`
+1. etc.
+
+NOTE: We may be unable to troubleshoot / respond to issues without reproducible
+steps. If you do not complete this section there is a high chance your issue
+may be closed.
+-->
+
 
 ### System Details
 
