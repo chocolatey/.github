@@ -35,5 +35,5 @@ Please remove all comments before submitting.
 
 ## Related Issues
 
-<!-- Enter and link any related issues here. -->
-#
+<!-- Enter and link any related issues here. If there are no issues, replace with N/A. -->
+Closes #
