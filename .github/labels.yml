@@ -45,7 +45,6 @@
 - name: "Bug"
   color: "D73A4A"
   description: "Issues where something has happened which was not expected or intended"
-  aliases: ["bug"]
 - name: "BuildAutomation"
   color: "0052CC"
   description: "Issues for changes to the build system, without functional changes needed to the project"
@@ -61,7 +60,6 @@
 - name: "Documentation"
   color: "BFE5BF"
   description: "Issues for changes that only need to change documentation"
-  aliases: ["documentation"]
 - name: "Duplicate Issue"
   color: "EB6420"
   description: "Issues that are duplicates of other issues"
@@ -69,7 +67,6 @@
 - name: "Enhancement"
   color: "0052CC"
   description: "Issues that enhances existing functionality, or adds new features"
-  aliases: ["enhancement"]
 - name: "Feature"
   color: "5319E7"
   description: "Issues that introduce new functionality to the project, instead of updating existing functionality"
