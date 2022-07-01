@@ -127,6 +127,3 @@
 - name: "Up For Grabs"
   color: "159818"
   description: "Issues that are available by the community to work on"
-- name: "Wrong Repository"
-  color: "EB6420"
-  description: "Issues opened on the wrong repository, and could not be moved"
