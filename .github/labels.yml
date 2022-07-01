@@ -58,7 +58,6 @@
   description: "Bug reported or feature requested by a licensed customer of Chocolatey"
 - name: "Detail Required"
   color: "9C772F"
-  description: "The issue requires additional information to know how to implement the feature, or more information to fix the bug"
 - name: "Documentation"
   color: "BFE5BF"
   description: "Issues for changes that only need to change documentation"
