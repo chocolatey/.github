@@ -29,6 +29,8 @@ You must configure at least one label if you need to use a local configuration f
 
 You will also need to make sure the GitHub secret `SYNC_TOKEN` is available on the repository that will be synchronizing labels, if using the default `SYNC_TOKEN` on public repositories you will need to make sure that the team called `team-sync` have write permissions to the repository.
 
+Follow the following checklist when adding or updating repositories: https://github.com/chocolatey/.github/blob/main/docs/labels-checklist.md
+
 #### What repositories are configured with label synchronization?
 
 At the moment, currently only two repositories have label synchronization configured, with more hopefully coming in the future.
