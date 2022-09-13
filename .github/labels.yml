@@ -123,3 +123,6 @@
 - name: "Up For Grabs"
   color: "159818"
   description: "Issues that are available by the community to work on"
+- name: "TaskItem"
+  color: "006B65"
+  description: "Non-bug, non-feature related things. Could be refactoring. Sometimes non-code related things."
