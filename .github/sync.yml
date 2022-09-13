@@ -5,7 +5,7 @@ group:
         dest: .github/workflows/label-sync.yml
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
-      choocolatey/docs
+      chocolatey/docs
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
