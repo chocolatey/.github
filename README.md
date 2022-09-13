@@ -4,20 +4,20 @@
 
 ### Labels
 
-This repository contains the configuration that all repositories underneath the Chocolatey and Chocolatey Community organization is expected to use.
-The configuration file is located in the `.github/labels.yml` file and contains information about the name of the label, the color, the description and any aliases that the label may be known underneath or previously used.
-At a minimum when adding a new label the name, color and description should be added. Aliases should only be added if the label is being renamed from something else, or known to conflict with a different name.
+This repository contains the configuration that all repositories underneath the Chocolatey and Chocolatey Community organizations are expected to use.
+The configuration file is located in the `.github/labels.yml` file and contains information about the name of the label, the color, the description and any aliases that the label may also be known as or previously used.
+At a minimum, when adding a new label, the name, color and description must be added. Aliases should only be added if the label is being renamed from something else, or known to conflict with a different name.
 
-Removing labels should be avoided at any cost unless it is known that no other repository have an issue or PR that makes use of the label, instead if it is absolutely needed to remove the label two approaches may be used:
+Removing labels should be avoided at any cost unless it is known that no other repository has an issue or PR that uses the label. If it is absolutely necessary to remove a label, use one of the following:
 
-- Add a new label specifically for removed labels, and add the label you wish to remove as an alias.
+- Add a new label specifically for labels that have been removed, and add the label you wish to remove, as an alias of that new label.
 - Or add/update the local configuration in each of the repositories that make use of the label that will be removed and copy over the existing global value into this local configuration file.
 
-The repositories that synchronizes labels will have their own workflow file called `label-sync.yml` located in the <.github/workflows> directory, repositories that do not contain this file is not being synchronized with the labels
+The repositories that synchronize labels will have their own workflow file called `.github/workflows/label-sync.yml`. Repositories that do not contain this file are not being synchronized with the labels
 configured in this repository.
 
-The synchronization will happen automatically at midnight UTC, but can also be invoked manually be navigating to <actions/workflows/label-sync.yml> and press the `Run workflow`. By default this will use the default branch of the repository
-but can be changed if needed. If testing the workflow through a fork, remember to set a GitHub secret with the name `SYNC_TOKEN` that have the value of your personal access token, or the personal access token of a user with write permissions to
+The synchronization will happen automatically at 00:00 UTC, but can also be invoked manually be navigating to <actions/workflows/label-sync.yml> and press the `Run workflow`. By default this will use the default branch of the repository
+but can be changed if needed. If testing the workflow through a fork, remember to set a GitHub secret with the name `SYNC_TOKEN` that has the value of your personal access token, or the personal access token of a user with write permissions to
 your fork.
 
 #### How can you add the workflow to a new repository?
@@ -29,7 +29,7 @@ You must configure at least one label if you need to use a local configuration f
 
 You will also need to make sure the GitHub secret `SYNC_TOKEN` is available on the repository that will be synchronizing labels, if using the default `SYNC_TOKEN` on public repositories you will need to make sure that the team called `team-sync` have write permissions to the repository.
 
-#### What repositories is configured with label synchronization?
+#### What repositories are configured with label synchronization?
 
 At the moment, currently only two repositories have label synchronization configured, with more hopefully coming in the future.
 
@@ -46,10 +46,10 @@ At the moment, currently only two repositories have label synchronization config
 ### Files
 
 This repository contains the configuration for multiple files that need to be synchronized to other repositories. The configuration itself is completely self-contained in this repository using the configuration file `.github/sync.yml` and the workflow `.github/workflows/file-sync.yml`.
-The workflow should not be needed to be updated, but adding/updating or removing files can be done through the configuration file previously mentioned.
+The workflow should not need to be updated, but adding/updating or removing files can be done through the configuration file previously mentioned.
 
 This configuration file can look a bit complex due to the structure of it.
-The format used is the first `files` group in the configuration files is intended to contain all of the files and repositories that need to be synchronized and available in all repositories, other repositories
+The format used in the first `files` group in the configuration file is intended to contain all of the files and repositories that need to be synchronized and available in all repositories. Other repositories
 that have a need for specific configuration are added later in a separate files group (one files group per repository, or per common repository).
 
 #### How can you add a new file to be synchronized to all repositories?
@@ -76,6 +76,6 @@ The repositories are:
 
 #### Known problems with files configuration
 
-- There was plans to use a fork initially when creating pull request, this unfortunately do not work and throws an exception. As such write permissions is required by the team `team-sync` on each destination repository instead.
+- There were plans to use a fork initially when creating a pull request, but this unfortunately does not work and throws an exception. As such write permissions are required by the team `team-sync` on each destination repository instead.
 - Other than when synchronizing folders, it is not possible to remove files in destination repositories. This will need to be handled manually if such a scenario occurs.
-- If a folder is already synchronized to a destination folder, avoid trying to synchronize a file inside that folder to the same destination repository. This causes problems and an exception may occur, or odd pull request may be opened.
+- If a folder is already synchronized to a destination folder, avoid trying to synchronize a file inside that folder to the same destination repository. This causes problems and an exception may occur, or an odd pull request may be opened.
