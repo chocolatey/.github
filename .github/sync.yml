@@ -1,0 +1,98 @@
+group:
+  # All repositories that need to sync common files
+  - files:
+      - source: .github/workflows/label-sync.yml
+        dest: .github/workflows/label-sync.yml
+        replace: false # we do not want to replace the file, in case of customizations
+    repos: |
+      choocolatey/docs
+    # chocolatey/ChocolateyGUI
+      # chocolatey/copenhagen_theme
+      # chocolatey/choco-theme
+      # chocolatey/checksum
+      # chocolatey/choco
+      # chocolatey/chocolatey.org
+      # chocolatey/chocolatey-ansible
+      # chocolatey/choco-quickstart-scripts
+      # chocolatey/boxstarter
+      # chocolatey/boxstarter.org
+      # chocolatey/cChoco
+      # chocolatey/rhino-licensing
+      # chocolatey/Chocolatey.Cake.Recipe
+      # chocolatey/home
+      # chocolatey/ChocoCCM
+      # chocolatey/chocolatey-licensed-issues
+      # chocolatey/shimgen
+      # chocolatey/nuget-chocolatey
+      # chocolatey/NuGet.Server-chocolatey
+      # chocolatey/chocolatey-workshop
+      # chocolatey/CloudCreate
+      # chocolatey/chocolatey-workshop-organizational-use
+      # chocolatey/chocolatey-workshop-internalizer
+      # chocolatey/chocolatey-environments
+      # chocolatey/VirusTotal.NET
+      # chocolatey/cla-assistant
+      # chocolatey/puppet-chocolatey-handsonlab
+  - files:
+    - source: .github/licenses/apache-2.0.txt
+      dest: LICENSE
+    repos: |
+      chocolatey/docs
+    # chocolatey/choco
+      # chocolatey/copenhagen_theme
+      # chocolatey/choco-theme
+      # chocolatey/checksum
+      # chocolatey/chocolatey.org
+      # chocolatey/choco-quickstart-scripts
+      # chocolatey/boxstarter
+      # chocolatey/boxstarter.org
+      # chocolatey/cChoco
+      # chocolatey/home
+      # chocolatey/cla-assistant
+  # - files:
+  #   - source: .github/licenses/apache-2.0.txt
+  #     dest: LICENSE.txt
+  #   repos: |
+  #     chocolatey/ChocolateyGUI
+  #     chocolatey/Chocolatey.Cake.Recipe
+  #     chocolatey/nuget-chocolatey
+  #     chocolatey/NuGet.Server-chocolatey
+  #     chocolatey/chocolatey-workshop
+  #     chocolatey/CloudCreate
+  #     chocolatey/VirusTotal.NET
+  # - files:
+  #   - source: .github/licenses/apache-2.0.txt
+  #     dest: LICENSE.md
+  #   repos: |
+  #     chocolatey/ChocoCCM
+  # - files:
+  #   - source: .github/licenses/gpl-3.0.txt
+  #     dest: LICENSE
+  #   repos: |
+  #     chocolatey/chocolatey-ansible
+  # - files:
+  #   - source: .github/licenses/workshop-apache-short.txt
+  #     dest: LICENSE
+  #   repos: |
+  #     chocolatey/chocolatey-workshop-organizational-use
+  #     chocolatey/chocolatey-workshop-internalizer
+  # - files:
+  #   - source: .github/licenses/mit.txt
+  #     dest: LICENSE
+  #   repos: |
+  #     chocolatey/chocolatey-environments
+
+# Uncomment the following lines to synchronize
+# the templates. These are intended to be the default
+# and will only allow additional templates being added.
+# Which is also why it won't delete additional templates,
+# manual intervention is needed if removing or renaming a template.
+  # - files:
+      # - source: .github/ISSUE_TEMPLATE/
+      #   dest: .github/ISSUE_TEMPLATE/
+      #   delete_orphaned: false
+      # - source: .github/PULL_REQUEST_TEMPLATE.md
+      #   dest: .github/PULL_REQUEST_TEMPLATE.md
+      #   replace: true
+  # repos: |
+  #   chocolatey/choco
