@@ -1,6 +1,6 @@
 # Global GitHub Configuration for organization repositories
 
-## Syncrhonization
+## Synchronization
 
 ### Labels
 
@@ -43,3 +43,39 @@ At the moment, currently only two repositories have label synchronization config
 - Not all labels are currently specified in the global configuration. Before synchronizing to new existing repositories, make sure the labels you are interested in are already available before merging a synchronized pull request.
   Missing labels can be added in the global configuration, or in a local configuration.
 
+### Files
+
+This repository contains the configuration for multiple files that need to be synchronized to other repositories. The configuration itself is completely self-contained in this repository using the configuration file `.github/sync.yml` and the workflow `.github/workflows/file-sync.yml`.
+The workflow should not be needed to be updated, but adding/updating or removing files can be done through the configuration file previously mentioned.
+
+This configuration file can look a bit complex due to the structure of it.
+The format used is the first `files` group in the configuration files is intended to contain all of the files and repositories that need to be synchronized and available in all repositories, other repositories
+that have a need for specific configuration are added later in a separate files group (one files group per repository, or per common repository).
+
+#### How can you add a new file to be synchronized to all repositories?
+
+As mentioned in previous section, the first `files` group is intended to be used for all files and repositories.
+To add a new file that need to be synchronized follow the same format already used.
+
+Specify the following information:
+
+- `- source:`: This is the relative location of the file located in the `.github` repository that will be used as the source, this relative location can be either a file or a folder.
+- `  dest:` This is the relative location in the destination repository where the file should be written to, as with the source parameter this can be either a file or a folder. If using a folder in the `source` argument, also use a folder in this argument.
+- `  replace:` Whether the synchronization tool should replace the existing file(s) in the destination repository (only available when the source and dest is a file).
+- `  delete_orphaned:` Whether any files in the folder should also be deleted if they are no longer available in the source repository (only available when the source and dest is a folder).
+
+#### What repositories do we synchronize files with?
+
+At the moment only one repository have files being synchronized.
+
+The repositories are:
+
+- <https://github.com/chocolatey/docs>
+  - Currently synchronizes the label sync workflow, but will not replace any existing workflow
+  - Currently synchronizes the Apache License to the repository, will replace the license if it is changed in this repository.
+
+#### Known problems with files configuration
+
+- There was plans to use a fork initially when creating pull request, this unfortunately do not work and throws an exception. As such write permissions is required by the team `team-sync` on each destination repository instead.
+- Other than when synchronizing folders, it is not possible to remove files in destination repositories. This will need to be handled manually if such a scenario occurs.
+- If a folder is already synchronized to a destination folder, avoid trying to synchronize a file inside that folder to the same destination repository. This causes problems and an exception may occur, or odd pull request may be opened.
