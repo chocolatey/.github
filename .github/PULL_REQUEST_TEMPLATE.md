@@ -34,27 +34,34 @@ Please remove all comments before submitting.
 1. Tested this way
 1. Tested that way
 -->
+### Operating Systems Testing
+<!-- If this is a code change, list the operating systems this has been tested on
+- Windows Server 2008R2
+- Windows 8.1
+...
+-->
 
 ## Change Types Made
 <!-- Tick the boxes for the type of changes that have been made -->
 
-* [ ] Bug fix (non-breaking change)
-* [ ] Feature / Enhancement (non-breaking change)
-* [ ] Breaking change (fix or feature that could cause existing functionality to change)
+* [ ] Bug fix (non-breaking change).
+* [ ] Feature / Enhancement (non-breaking change).
+* [ ] Breaking change (fix or feature that could cause existing functionality to change).
+* [ ] Documentation changes.
 * [ ] PowerShell code changes.
+
+## Change Checklist
+
+* [ ] Requires a change to the documentation.
+* [ ] Documentation has been updated.
+* [ ] Tests to cover my changes, have been added.
+* [ ] All new and existing tests passed?
+* [ ] PowerShell code changes: PowerShell v2 compatibility checked?
 
 ## Related Issue
 <!-- Make sure you have raised an issue for this pull request before
 continuing. -->
 
 Fixes #
-
-## Change Checklist
-
-* [ ] Requires a change to the documentation
-* [ ] Documentation has been updated
-* [ ] Tests to cover my changes, have been added
-* [ ] All new and existing tests passed.
-* [ ] PowerShell v2 compatibility checked.
 
 <!-- PLEASE REMOVE ALL COMMENTS BEFORE SUBMITTING -->
