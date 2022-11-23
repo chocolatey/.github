@@ -38,9 +38,11 @@ may be closed.
 
 ### System Details
 
-* OS Build (In PowerShell run `[System.Environment]::OSVersion.version.tostring()`):
-* Windows PowerShell version (Run: `$PSVersionTable`):
-* Chocolatey version (Run `choco --version`):
+* OS Build (In PowerShell run `[System.Environment]::OSVersion.version.tostring()`): 
+* Windows PowerShell version (Run: `$PSVersionTable`): 
+* Chocolatey version (Run `choco --version`): 
+* Chocolatey Licensed Extension version (Run `choco list chocolatey.extension --local --exact`): 
+* Chocolatey License type (Professional / Business / ?): 
 
 ### Output Log
 <!--
