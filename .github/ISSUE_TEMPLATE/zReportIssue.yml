@@ -73,11 +73,15 @@ body:
         * Operating System: To get this information run `[System.Environment]::OSVersion.version.tostring()`
         * Windows PowerShell Version: Run `$PSVersionTable`
         * Chocolatey CLI Version: Run `choco --version`
+        * Chocolatey Licensed Extension version (Run `choco list chocolatey.extension --local --exact`):
+        * Chocolatey License type (Professional / Business / ?)
         * Terminal/Emulator: Some knowledge from you is necessary here. CMD, Windows PowerShell, PowerShell Core, Microsoft Terminal, Cmder, and more are possible known terminals or emulators.
       value: |
         * Operating System:
         * Windows PowerShell version:
         * Chocolatey CLI Version:
+        * Chocolatey Licensed Extension version:
+        * Chocolatey License type:
         * Terminal/Emulator:
     validations:
       required: true
