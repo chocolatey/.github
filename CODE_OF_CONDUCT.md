@@ -36,7 +36,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at info@chocolatey.io. All complaints will be reviewed and investigated promptly and fairly and will result in a response that is deemed necessary and appropriate to the circumstances.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at community-team@chocolatey.org. All complaints will be reviewed and investigated promptly and fairly and will result in a response that is deemed necessary and appropriate to the circumstances.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
