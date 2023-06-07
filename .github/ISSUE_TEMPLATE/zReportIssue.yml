@@ -73,7 +73,7 @@ body:
         * Operating System: To get this information run `[System.Environment]::OSVersion.version.tostring()`
         * Windows PowerShell Version: Run `$PSVersionTable`
         * Chocolatey CLI Version: Run `choco --version`
-        * Chocolatey Licensed Extension version (Run `choco list chocolatey.extension --local --exact`):
+        * Chocolatey Licensed Extension version (Run `choco list chocolatey.extension --exact` (If running a Chocolatey CLI version less than v2.0.0, add `--local-only`)):
         * Chocolatey License type (Professional / Business / ?)
         * Terminal/Emulator: Some knowledge from you is necessary here. CMD, Windows PowerShell, PowerShell Core, Microsoft Terminal, Cmder, and more are possible known terminals or emulators.
       value: |
@@ -90,7 +90,7 @@ body:
     attributes:
       label: Installed Packages
       description: |
-        Sometimes one or more packages installed may be the cause of the problem. Please include the information from the command `choco list -lo`. If this is part of the installation of Chocolatey CLI or no packages
+        Sometimes one or more packages installed may be the cause of the problem. Please include the information from the command `choco list ` (If running a Chocolatey CLI version less than v2.0.0, add `--local-only`). If this is part of the installation of Chocolatey CLI or no packages
         are installed (not even Chocolatey); please add `N/A` instead.
       render: bash
     validations:
