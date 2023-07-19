@@ -29,6 +29,8 @@ body:
           required: true
         - label: I have verified this issue is not security related.
           required: true
+        - label: I confirm I am using **official**, and **not** unofficial, or modified, Chocolatey products.
+          required: true
   - type: textarea
     id: current-behavior
     attributes:
