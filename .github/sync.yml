@@ -14,6 +14,7 @@ group:
     repos: |
       chocolatey/docs
       chocolatey-community/chocolatey-au
+      chocolatey/NuGet.Client
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -104,3 +105,14 @@ group:
       #   replace: true
   # repos: |
   #   chocolatey/choco
+  - files:
+    # Repositories that that we have forked from other places that
+    # also include a pull request template means that we need to
+    # overwrite the pull request template. By synchronizing this
+    # file we also prevent cases where we have incorrectly merged
+    # this template from upstream in the future (it will be updated again).
+    - source: .github/PULL_REQUEST_TEMPLATE.md
+      dest: .github/PULL_REQUEST_TEMPLATE.md
+      replace: true
+    repos: |
+      chocolatey/NuGet.Client
