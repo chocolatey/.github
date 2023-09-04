@@ -4,6 +4,9 @@ group:
       - source: .github/GitReleaseManager/.templates/
         dest: .templates/
         delete_orphaned: true
+      - source: .github/GitReleaseManager/GitReleaseManager.yaml
+        dest: GitReleaseManager.yaml
+        replace: false # we do not want to replace the file, in case of customizations
     repos: |
       chocolatey/choco
       chocolatey/repository-template
