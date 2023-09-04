@@ -1,6 +1,12 @@
 group:
   # All repositories that need to sync common files
   - files:
+      - source: .github/GitReleaseManager/.templates
+        dest: .templates
+    repos: |
+      chocolatey/choco
+      chocolatey/repository-template
+  - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
         replace: false # we do not want to replace the file, in case of customizations
