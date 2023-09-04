@@ -1,8 +1,9 @@
 group:
   # All repositories that need to sync common files
   - files:
-      - source: .github/GitReleaseManager/.templates
-        dest: .templates
+      - source: .github/GitReleaseManager/.templates/
+        dest: .templates/
+        delete_orphaned: true
     repos: |
       chocolatey/choco
       chocolatey/repository-template
