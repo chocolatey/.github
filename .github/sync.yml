@@ -14,6 +14,9 @@ group:
       chocolatey/NuGet.Client
       chocolatey/checksum
       chocolatey/Chocolatey.Cake.Recipe
+      chocolatey/Chocolatey.Docs.Cake.Recipe
+      chocolatey/rhino-licensing
+      chocolatey/ChocolateyGUI
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
