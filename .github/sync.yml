@@ -13,6 +13,7 @@ group:
       chocolatey/boxstarter
       chocolatey/NuGet.Client
       chocolatey/checksum
+      chocolatey/Chocolatey.Cake.Recipe
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
