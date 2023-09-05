@@ -17,6 +17,7 @@ group:
       chocolatey/Chocolatey.Docs.Cake.Recipe
       chocolatey/rhino-licensing
       chocolatey/ChocolateyGUI
+      chocolatey/ChocoCCM
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
