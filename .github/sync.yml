@@ -10,6 +10,9 @@ group:
     repos: |
       chocolatey/choco
       chocolatey/repository-template
+      chocolatey/boxstarter
+      chocolatey/NuGet.Client
+      chocolatey/checksum
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
