@@ -27,6 +27,7 @@ group:
       chocolatey-community/chocolatey-au
       chocolatey/NuGet.Client
       chocolatey/checksum
+      chocolatey/VirusTotal.NET
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -50,7 +51,6 @@ group:
       # chocolatey/chocolatey-workshop-organizational-use
       # chocolatey/chocolatey-workshop-internalizer
       # chocolatey/chocolatey-environments
-      # chocolatey/VirusTotal.NET
       # chocolatey/cla-assistant
       # chocolatey/puppet-chocolatey-handsonlab
   - files:
@@ -69,17 +69,17 @@ group:
       # chocolatey/cChoco
       # chocolatey/home
       # chocolatey/cla-assistant
-  # - files:
-  #   - source: .github/licenses/apache-2.0.txt
-  #     dest: LICENSE.txt
-  #   repos: |
+  - files:
+    - source: .github/licenses/apache-2.0.txt
+      dest: LICENSE.txt
+    repos: |
+        chocolatey/VirusTotal.NET
   #     chocolatey/ChocolateyGUI
   #     chocolatey/Chocolatey.Cake.Recipe
   #     chocolatey/nuget-chocolatey
   #     chocolatey/NuGet.Server-chocolatey
   #     chocolatey/chocolatey-workshop
   #     chocolatey/CloudCreate
-  #     chocolatey/VirusTotal.NET
   # - files:
   #   - source: .github/licenses/apache-2.0.txt
   #     dest: LICENSE.md
