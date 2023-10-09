@@ -93,6 +93,7 @@
   description: "These are things that are handled by tools like Test-Kitchen"
 - name: "Invalid / Not Issue / No repro / Not Implementing"
   color: "EB6420"
+  aliases: ["wontfix"]
 - name: "invalid"
   color: "E89819"
   description: "This is used to mark Hacktoberfest PR's as invalid"
