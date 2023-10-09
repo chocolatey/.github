@@ -26,10 +26,10 @@ group:
       chocolatey/docs
       chocolatey-community/chocolatey-au
       chocolatey/NuGet.Client
+      chocolatey/checksum
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
-      # chocolatey/checksum
       # chocolatey/choco
       # chocolatey/chocolatey.org
       # chocolatey/chocolatey-ansible
@@ -58,10 +58,10 @@ group:
       dest: LICENSE
     repos: |
       chocolatey/docs
+      chocolatey/checksum
     # chocolatey/choco
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
-      # chocolatey/checksum
       # chocolatey/chocolatey.org
       # chocolatey/choco-quickstart-scripts
       # chocolatey/boxstarter
