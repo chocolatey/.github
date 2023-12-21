@@ -23,6 +23,7 @@ group:
         dest: .github/workflows/label-sync.yml
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
+      chocolatey/boxstarter
       chocolatey/docs
       chocolatey-community/chocolatey-au
       chocolatey/NuGet.Client
@@ -35,7 +36,6 @@ group:
       # chocolatey/chocolatey.org
       # chocolatey/chocolatey-ansible
       # chocolatey/choco-quickstart-scripts
-      # chocolatey/boxstarter
       # chocolatey/boxstarter.org
       # chocolatey/cChoco
       # chocolatey/rhino-licensing
