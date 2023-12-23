@@ -54,7 +54,7 @@
   aliases: ["Build Automation", "Build"]
 - name: "CoreTeam"
   color: "F7C6C7"
-  description: "Issues that will only be accepeted from the core Chocolatey Team"
+  description: "Issues that will only be accepted from the core Chocolatey Team"
 - name: "Customer"
   color: "006B75"
   description: "Bug reported or feature requested by a licensed customer of Chocolatey"
