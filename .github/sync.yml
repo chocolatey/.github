@@ -18,6 +18,7 @@ group:
       chocolatey/rhino-licensing
       chocolatey/ChocolateyGUI
       chocolatey/ChocoCCM
+      chocolatey/Chocolatey.Cake.Recipe
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
@@ -29,6 +30,7 @@ group:
       chocolatey/NuGet.Client
       chocolatey/checksum
       chocolatey/VirusTotal.NET
+      chocolatey/Chocolatey.Cake.Recipe
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -39,7 +41,6 @@ group:
       # chocolatey/boxstarter.org
       # chocolatey/cChoco
       # chocolatey/rhino-licensing
-      # chocolatey/Chocolatey.Cake.Recipe
       # chocolatey/home
       # chocolatey/ChocoCCM
       # chocolatey/chocolatey-licensed-issues
@@ -59,6 +60,7 @@ group:
     repos: |
       chocolatey/docs
       chocolatey/checksum
+      chocolatey/Chocolatey.Cake.Recipe
     # chocolatey/choco
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -75,7 +77,6 @@ group:
     repos: |
         chocolatey/VirusTotal.NET
   #     chocolatey/ChocolateyGUI
-  #     chocolatey/Chocolatey.Cake.Recipe
   #     chocolatey/nuget-chocolatey
   #     chocolatey/NuGet.Server-chocolatey
   #     chocolatey/chocolatey-workshop
