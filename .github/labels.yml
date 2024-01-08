@@ -134,3 +134,4 @@
 - name: "Up For Grabs"
   color: "159818"
   description: "Issues that are available by the community to work on"
+  alias: ['good first issue', 'help wanted']
