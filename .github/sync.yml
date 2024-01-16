@@ -108,10 +108,10 @@ group:
   #     chocolatey/chocolatey-environments
 
   - files:
-      - source: .github/ISSUE_TEMPLATE/
-        dest: .github/ISSUE_TEMPLATE/
-        delete_orphaned: true
-  repos: |
+    - source: .github/ISSUE_TEMPLATE/
+      dest: .github/ISSUE_TEMPLATE/
+      delete_orphaned: true
+    repos: |
       chocolatey-community/chocolatey-community-validation
   - files:
     # Repositories that that we have forked from other places that
