@@ -20,6 +20,7 @@ group:
       chocolatey/ChocoCCM
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/rhino-licensing
+      chocolatey-community/chocolatey-community-validation
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
@@ -33,6 +34,7 @@ group:
       chocolatey/VirusTotal.NET
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/rhino-licensing
+      chocolatey-community/chocolatey-community-validation
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -105,20 +107,12 @@ group:
   #   repos: |
   #     chocolatey/chocolatey-environments
 
-# Uncomment the following lines to synchronize
-# the templates. These are intended to be the default
-# and will only allow additional templates being added.
-# Which is also why it won't delete additional templates,
-# manual intervention is needed if removing or renaming a template.
-  # - files:
-      # - source: .github/ISSUE_TEMPLATE/
-      #   dest: .github/ISSUE_TEMPLATE/
-      #   delete_orphaned: false
-      # - source: .github/PULL_REQUEST_TEMPLATE.md
-      #   dest: .github/PULL_REQUEST_TEMPLATE.md
-      #   replace: true
-  # repos: |
-  #   chocolatey/choco
+  - files:
+      - source: .github/ISSUE_TEMPLATE/
+        dest: .github/ISSUE_TEMPLATE/
+        delete_orphaned: true
+  repos: |
+      chocolatey-community/chocolatey-community-validation
   - files:
     # Repositories that that we have forked from other places that
     # also include a pull request template means that we need to
@@ -130,3 +124,4 @@ group:
       replace: true
     repos: |
       chocolatey/NuGet.Client
+      chocolatey-community/chocolatey-community-validation
