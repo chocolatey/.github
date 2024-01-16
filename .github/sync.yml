@@ -110,7 +110,7 @@ group:
   - files:
     - source: .github/ISSUE_TEMPLATE/
       dest: .github/ISSUE_TEMPLATE/
-      delete_orphaned: true
+      delete_orphaned: false
     repos: |
       chocolatey-community/chocolatey-community-validation
   - files:
