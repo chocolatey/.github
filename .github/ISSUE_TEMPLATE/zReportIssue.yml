@@ -21,6 +21,8 @@ body:
       label: Checklist
       description: Before continuing, make sure you have done the following.
       options:
+        - label: I confirm there are no unresolved issues reported on the [Chocolatey Status page](https://status.chocolatey.org).
+          required: true
         - label: I have verified this is the correct repository for opening this issue.
           required: true
         - label: I have verified no other issues exist related to my problem.
