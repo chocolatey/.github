@@ -129,3 +129,11 @@ group:
       chocolatey/NuGet.Client
       chocolatey-community/chocolatey-community-validation
       chocolatey-community/chocolatey-au
+  - files:
+      - source: .github/workflows/stale.yml
+        dest: .github/workflows/stale.yml
+        replace: true # we want to replace this file to ensure consistent policy across all repositories
+    repos: |
+      chocolatey/choco
+      chocolatey/ChocolateyGUI
+      chocolatey/docs
