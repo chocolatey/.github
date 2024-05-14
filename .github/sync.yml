@@ -21,6 +21,7 @@ group:
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/rhino-licensing
       chocolatey-community/chocolatey-community-validation
+      chocolatey-community/chocolatey-au
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
@@ -35,6 +36,7 @@ group:
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/rhino-licensing
       chocolatey-community/chocolatey-community-validation
+      chocolatey-community/chocolatey-au
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
@@ -113,6 +115,7 @@ group:
       delete_orphaned: false
     repos: |
       chocolatey-community/chocolatey-community-validation
+      chocolatey-community/chocolatey-au
   - files:
     # Repositories that that we have forked from other places that
     # also include a pull request template means that we need to
@@ -125,3 +128,4 @@ group:
     repos: |
       chocolatey/NuGet.Client
       chocolatey-community/chocolatey-community-validation
+      chocolatey-community/chocolatey-au
