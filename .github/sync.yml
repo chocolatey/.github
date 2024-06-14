@@ -37,12 +37,12 @@ group:
       chocolatey/rhino-licensing
       chocolatey-community/chocolatey-community-validation
       chocolatey-community/chocolatey-au
+      chocolatey/chocolatey-ansible
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
       # chocolatey/choco
       # chocolatey/chocolatey.org
-      # chocolatey/chocolatey-ansible
       # chocolatey/choco-quickstart-scripts
       # chocolatey/boxstarter.org
       # chocolatey/cChoco
@@ -137,3 +137,4 @@ group:
       chocolatey/choco
       chocolatey/ChocolateyGUI
       chocolatey/docs
+      chocolatey/chocolatey-ansible
