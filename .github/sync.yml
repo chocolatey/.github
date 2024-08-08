@@ -138,3 +138,4 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/docs
       chocolatey/chocolatey-ansible
+      chocolatey/home
