@@ -1,5 +1,6 @@
 issue-labels-include:
   - Breaking Change
+  - BreakingChange
   - Deprecate
   - Feature
   - C4B Feature
@@ -18,6 +19,9 @@ issue-labels-alias:
   - name:    Bug
     header:  Bug Fix
     plural:  Bug Fixes
+  - name:    Breaking Change
+    header:  Breaking Change
+    plural:  Breaking Changes
   - name:    Deprecate
     header:  Deprecated Feature
     plural:  Deprecated Features
