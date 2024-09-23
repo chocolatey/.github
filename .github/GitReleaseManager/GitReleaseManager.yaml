@@ -9,7 +9,7 @@ issue-labels-include:
   - Dependency Change
 issue-labels-exclude:
   - Internal Refactoring
-  - BuildAutomation
+  - Build Automation
   - NO RELEASE NOTES
 issue-labels-alias:
   - name:    Documentation
