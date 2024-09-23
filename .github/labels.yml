@@ -41,17 +41,17 @@
 - name: "Blocked - External"
   color: "5319E7"
   description: "The issue or pull request is not fixable without a change in a upstream/external library"
-- name: "BreakingChange"
+- name: "Breaking Change"
   color: "5319E7"
   description: "The issue will introduce backwards incompatible changes"
-  aliases: ["Breaking Change"]
+  aliases: ["BreakingChange"]
 - name: "Bug"
   color: "D73A4A"
   description: "Issues where something has happened which was not expected or intended"
-- name: "BuildAutomation"
+- name: "Build Automation"
   color: "0052CC"
   description: "Issues for changes to the build system, without functional changes needed to the project"
-  aliases: ["Build Automation", "Build"]
+  aliases: ["BuildAutomation", "Build"]
 - name: "CoreTeam"
   color: "F7C6C7"
   description: "Issues that will only be accepted from the core Chocolatey Team"
@@ -81,10 +81,10 @@
 - name: "hacktoberfest-accepted"
   color: "1D76DB"
   description: "Pull Requests opened during hacktoberfest, and has been accepted by a team member"
-- name: "HasDependency"
+- name: "Has Dependency"
   color: "8E44AD"
   description: "This issue has a related issue that would need to be addressed before this issue can be closed"
-  aliases: ["Has related issue"]
+  aliases: ["Has related issue", "HasDependency"]
 - name: "IN MANUAL TEST SUITE"
   color: "8E44AD"
   description: "These are things that are documented to test as part of a release"
