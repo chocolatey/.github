@@ -64,4 +64,37 @@ continuing. -->
 
 Fixes #
 
-<!-- PLEASE REMOVE ALL COMMENTS BEFORE SUBMITTING -->
+## Reason for Draft Status
+
+<!-- If your PR is not ready for review in it's current state, please open it as a Draft and provide further details here. -->
+
+N/A
+
+<!-- PLEASE REMOVE ALL COMMENTS ABOVE BEFORE SUBMITTING -->
+
+<!-- PLEASE DO NOT CHANGE ANYTHING BELOW -->
+
+## Chocolatey Team Pre-merge Checklist
+
+This section is for Chocolatey team members to validate things prior to merge. Each section should have only one option selected. Any option marked with `(*)` should have an individual comment with further details.
+
+### Corresponding Product Changes
+
+* [ ] This PR affects other Chocolatey products that may need corresponding changes. (eg: Chocolatey GUI, Chocolatey Licensed Extension)
+* [ ] This PR does not affect other Chocolatey products that may need corresponding changes. (eg: Chocolatey GUI, Chocolatey Licensed Extension)
+
+### Milestone Tracking
+
+* [ ] This PR is attached to an issue that is attached to a milestone.
+* [ ] This PR is not attached to an issue, so it has been attached to a milestone.
+* [ ] This PR does not need to be attached to a milestone. (*)
+
+### Inter-branch Porting
+
+* [ ] This PR affects changes that will need to be ported to other branches. (*)
+* [ ] This PR does not affect changes that will need to be ported to other branches.
+
+#### Pester Test Specifics
+
+* [ ] This PR affects Pester tests unrelated to Chocolatey CLI changes that need to be ported to the `master` branch.
+* [ ] This PR affects Pester tests due to build changes and needs to be ported to both `master` and `support` branches.
