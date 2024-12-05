@@ -139,3 +139,14 @@ group:
       chocolatey/docs
       chocolatey/chocolatey-ansible
       chocolatey/home
+  - files:
+      - source: .github/workflows/lock-closed.yml
+        dest: .github/workflows/lock-closed.yml
+        replace: true # we want to replace this file to ensure consistent policy across all repositories
+    repos: |
+      chocolatey/rhino-licensing
+    # chocolatey/choco
+      # chocolatey/ChocolateyGUI
+      # chocolatey/docs
+      # chocolatey/chocolatey-ansible
+      # chocolatey/home
