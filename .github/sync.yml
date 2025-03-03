@@ -150,3 +150,11 @@ group:
       # chocolatey/docs
       # chocolatey/chocolatey-ansible
       # chocolatey/home
+  - files:
+      - source: .github/workflows/vote-for-issue.yml
+        dest: .github/workflows/vote-for-issue.yml
+        replace: true # we want to replace this file to ensure consistent policy across all repositories
+    repos: |
+      chocolatey/choco
+      chocolatey/ChocolateyGUI
+      chocolatey/chocolatey-licensed-issues
