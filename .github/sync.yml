@@ -22,6 +22,7 @@ group:
       chocolatey/rhino-licensing
       chocolatey-community/chocolatey-community-validation
       chocolatey-community/chocolatey-au
+      chocolatey/Chocolatey.BestPractices
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
