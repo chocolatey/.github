@@ -15,6 +15,6 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.SYNC_TOKEN }}
-          PR_LABELS: BuildAutomation
+          PR_LABELS: Build Automation
           COMMIT_PREFIX: "(maint) "
           # TEAM_REVIEWERS: "" # Placed as reference in case we want to automatically add a reviewer
