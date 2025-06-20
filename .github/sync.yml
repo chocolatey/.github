@@ -166,3 +166,4 @@ group:
     repos: |
       chocolatey/choco
       chocolatey/chocolatey-licensed-issues
+      chocolatey/ChocolateyGUI
