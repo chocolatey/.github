@@ -67,14 +67,9 @@
   color: "EB6420"
   description: "Issues that are duplicates of other issues"
   aliases: ["duplicate", "duplicates"]
-- name: "Improvement"
+- name: "Enhancement"
   color: "0052CC"
   description: "Issues that enhances existing functionality, or adds new features"
-  aliases: ["Enhancement"]
-- name: "Feature"
-  color: "5319E7"
-  description: "Issues that introduce new functionality to the project, instead of updating existing functionality"
-  aliases: ["FeatureParity"]
 - name: "Hacktoberfest"
   color: "FB9904"
   description: "Issues opened during hacktoberfest"
