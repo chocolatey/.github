@@ -36,7 +36,6 @@ group:
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/rhino-licensing
       chocolatey-community/chocolatey-community-validation
-      chocolatey-community/chocolatey-au
       chocolatey/chocolatey-ansible
     # chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
