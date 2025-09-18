@@ -48,6 +48,7 @@ Please remove all comments before submitting.
 * [ ] Feature / Enhancement (non-breaking change).
 * [ ] Breaking change (fix or feature that could cause existing functionality to change).
 * [ ] Documentation changes.
+* [ ] Pester Test changes.
 * [ ] PowerShell code changes.
 
 ## Change Checklist
