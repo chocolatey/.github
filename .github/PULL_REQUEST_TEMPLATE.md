@@ -57,6 +57,8 @@ Please remove all comments before submitting.
 * [ ] Tests to cover my changes, have been added.
 * [ ] All new and existing tests passed?
 * [ ] PowerShell code changes: PowerShell v3 compatibility checked?
+* [ ] Images added to the [img](https://github.com/chocolatey/img) repository?
+    * [ ] PR -
 
 ## Related Issue
 <!-- Make sure you have raised an issue for this pull request before
