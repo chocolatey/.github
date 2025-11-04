@@ -8,39 +8,37 @@ group:
         dest: GitReleaseManager.yaml
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
-      chocolatey/choco
-      chocolatey/repository-template
       chocolatey/boxstarter
-      chocolatey/NuGet.Client
       chocolatey/checksum
-      chocolatey/Chocolatey.Cake.Recipe
-      chocolatey/rhino-licensing
-      chocolatey/ChocolateyGUI
+      chocolatey/choco
       chocolatey/ChocoCCM
-      chocolatey/Chocolatey.Cake.Recipe
-      chocolatey/rhino-licensing
-      chocolatey-community/chocolatey-community-validation
-      chocolatey-community/chocolatey-au
+      chocolatey/ChocolateyGUI
       chocolatey/Chocolatey.BestPractices
+      chocolatey/Chocolatey.Cake.Recipe
+      chocolatey/NuGet.Client
+      chocolatey/repository-template
+      chocolatey/rhino-licensing
+      chocolatey-community/chocolatey-au
+      chocolatey-community/chocolatey-community-validation
   - files:
       - source: .github/workflows/label-sync.yml
         dest: .github/workflows/label-sync.yml
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
       chocolatey/boxstarter
-      chocolatey/docs
-      chocolatey-community/chocolatey-au
-      chocolatey/NuGet.Client
       chocolatey/checksum
-      chocolatey/VirusTotal.NET
-      chocolatey/Chocolatey.Cake.Recipe
-      chocolatey/rhino-licensing
-      chocolatey-community/chocolatey-community-validation
-      chocolatey/chocolatey-ansible
       chocolatey/choco
       chocolatey/ChocolateyGUI
-      chocolatey/home
+      chocolatey/Chocolatey.Cake.Recipe
+      chocolatey/chocolatey-ansible
       chocolatey/chocolatey-licensed-issues
+      chocolatey/docs
+      chocolatey/home
+      chocolatey/NuGet.Client
+      chocolatey/rhino-licensing
+      chocolatey/VirusTotal.NET
+      chocolatey-community/chocolatey-au
+      chocolatey-community/chocolatey-community-validation
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
@@ -62,9 +60,9 @@ group:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE
     repos: |
-      chocolatey/docs
       chocolatey/checksum
       chocolatey/Chocolatey.Cake.Recipe
+      chocolatey/docs
     # chocolatey/choco
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
@@ -112,8 +110,8 @@ group:
       dest: .github/ISSUE_TEMPLATE/
       delete_orphaned: false
     repos: |
-      chocolatey-community/chocolatey-community-validation
       chocolatey-community/chocolatey-au
+      chocolatey-community/chocolatey-community-validation
   - files:
     # Repositories that that we have forked from other places that
     # also include a pull request template means that we need to
@@ -134,8 +132,8 @@ group:
     repos: |
       chocolatey/choco
       chocolatey/ChocolateyGUI
-      chocolatey/docs
       chocolatey/chocolatey-ansible
+      chocolatey/docs
       chocolatey/home
   - files:
       - source: .github/workflows/lock-closed.yml
@@ -162,9 +160,10 @@ group:
         replace: true # we want to replace this file to ensure consistent policy across all repositories
     repos: |
       chocolatey/choco
-      chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
+      chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
