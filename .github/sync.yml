@@ -40,6 +40,7 @@ group:
       chocolatey/choco
       chocolatey/ChocolateyGUI
       chocolatey/rhino-licensing
+      chocolatey/boxstarter
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
@@ -166,4 +167,5 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
+
 
