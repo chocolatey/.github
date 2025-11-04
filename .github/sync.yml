@@ -39,13 +39,13 @@ group:
       chocolatey/chocolatey-ansible
       chocolatey/choco
       chocolatey/ChocolateyGUI
+      chocolatey/rhino-licensing
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
     # chocolatey/choco-quickstart-scripts
     # chocolatey/boxstarter.org
     # chocolatey/cChoco
-    # chocolatey/rhino-licensing
     # chocolatey/home
     # chocolatey/ChocoCCM
     # chocolatey/chocolatey-licensed-issues
@@ -166,3 +166,4 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
+
