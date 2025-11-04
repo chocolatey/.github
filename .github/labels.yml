@@ -113,14 +113,14 @@
   description: "Represents issues that are of urgent priority, and should be dealt with first."
 - name: "Priority - High"
   color: "FBCC01"
-  description: "Represent high priority tickets - things that must be addressed soon. Normal priority (where you will find most tickets) are tickets that don't bear the labels for Low nor High."
+  description: "Represent high priority tickets - things that must be addressed soon."
   aliases: ["Priority_HIGH"]
 - name: "Priority - Normal"
   color: "6FDDFF"
   description: "Represents issues that are of normal priority."
 - name: "Priority - Low"
   color: "D8D8D8"
-  description: "Represents issues that are of lower priority, can be taken care of whenever. Normal priority (where you will find most tickets) are tickets that don't bear the labels for Low nor High."
+  description: "Represents issues that are of lower priority, can be taken care of whenever."
   aliases: ["Priority_LOW"]
 - name: "Pro/Business"
   color: "006B75"
