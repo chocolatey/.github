@@ -38,7 +38,7 @@ group:
       chocolatey-community/chocolatey-community-validation
       chocolatey/chocolatey-ansible
       chocolatey/choco
-    # chocolatey/ChocolateyGUI
+      chocolatey/ChocolateyGUI
       # chocolatey/copenhagen_theme
       # chocolatey/choco-theme
       # chocolatey/chocolatey.org
@@ -166,4 +166,5 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
+
 
