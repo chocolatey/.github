@@ -151,6 +151,6 @@
   aliases: ["good first issue", "help wanted"]
 - name: "Area - Refactor"
   color: "9400D3"
-
   description: "Issues that represent refactoring code for maintainability."
+
 
