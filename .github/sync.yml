@@ -41,13 +41,13 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/rhino-licensing
       chocolatey/boxstarter
+      chocolatey/home
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
     # chocolatey/choco-quickstart-scripts
     # chocolatey/boxstarter.org
     # chocolatey/cChoco
-    # chocolatey/home
     # chocolatey/ChocoCCM
     # chocolatey/chocolatey-licensed-issues
     # chocolatey/shimgen
@@ -167,5 +167,6 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
+
 
 
