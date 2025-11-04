@@ -29,6 +29,7 @@ group:
       chocolatey/checksum
       chocolatey/choco
       chocolatey/ChocolateyGUI
+      chocolatey/Chocolatey.BestPractices
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/chocolatey-ansible
       chocolatey/chocolatey-licensed-issues
@@ -163,6 +164,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
