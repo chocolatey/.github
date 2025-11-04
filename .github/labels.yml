@@ -70,7 +70,7 @@
 - name: "Enhancement"
   color: "5319E7"
   description: "Issues that introduce new functionality to the project, or enhances/updates existing functionality."
-  aliases: ["FeatureParity, Feature, Improvement"]
+  aliases: ["FeatureParity", "Feature", "Improvement"]
 - name: "Deprecate"
   color: "2F1E3B"
   description: "Features or functionality that is being deprecated in favor of removing or replacing them in future."
@@ -153,3 +153,4 @@
   color: "9400D3"
 
   description: "Issues that represent refactoring code for maintainability."
+
