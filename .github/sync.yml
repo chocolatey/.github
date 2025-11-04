@@ -39,26 +39,26 @@ group:
       chocolatey/chocolatey-ansible
       chocolatey/choco
       chocolatey/ChocolateyGUI
-      # chocolatey/copenhagen_theme
-      # chocolatey/choco-theme
-      # chocolatey/chocolatey.org
-      # chocolatey/choco-quickstart-scripts
-      # chocolatey/boxstarter.org
-      # chocolatey/cChoco
-      # chocolatey/rhino-licensing
-      # chocolatey/home
-      # chocolatey/ChocoCCM
-      # chocolatey/chocolatey-licensed-issues
-      # chocolatey/shimgen
-      # chocolatey/nuget-chocolatey
-      # chocolatey/NuGet.Server-chocolatey
-      # chocolatey/chocolatey-workshop
-      # chocolatey/CloudCreate
-      # chocolatey/chocolatey-workshop-organizational-use
-      # chocolatey/chocolatey-workshop-internalizer
-      # chocolatey/chocolatey-environments
-      # chocolatey/cla-assistant
-      # chocolatey/puppet-chocolatey-handsonlab
+    # chocolatey/copenhagen_theme
+    # chocolatey/choco-theme
+    # chocolatey/chocolatey.org
+    # chocolatey/choco-quickstart-scripts
+    # chocolatey/boxstarter.org
+    # chocolatey/cChoco
+    # chocolatey/rhino-licensing
+    # chocolatey/home
+    # chocolatey/ChocoCCM
+    # chocolatey/chocolatey-licensed-issues
+    # chocolatey/shimgen
+    # chocolatey/nuget-chocolatey
+    # chocolatey/NuGet.Server-chocolatey
+    # chocolatey/chocolatey-workshop
+    # chocolatey/CloudCreate
+    # chocolatey/chocolatey-workshop-organizational-use
+    # chocolatey/chocolatey-workshop-internalizer
+    # chocolatey/chocolatey-environments
+    # chocolatey/cla-assistant
+    # chocolatey/puppet-chocolatey-handsonlab
   - files:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE
@@ -67,15 +67,15 @@ group:
       chocolatey/checksum
       chocolatey/Chocolatey.Cake.Recipe
     # chocolatey/choco
-      # chocolatey/copenhagen_theme
-      # chocolatey/choco-theme
-      # chocolatey/chocolatey.org
-      # chocolatey/choco-quickstart-scripts
-      # chocolatey/boxstarter
-      # chocolatey/boxstarter.org
-      # chocolatey/cChoco
-      # chocolatey/home
-      # chocolatey/cla-assistant
+    # chocolatey/copenhagen_theme
+    # chocolatey/choco-theme
+    # chocolatey/chocolatey.org
+    # chocolatey/choco-quickstart-scripts
+    # chocolatey/boxstarter
+    # chocolatey/boxstarter.org
+    # chocolatey/cChoco
+    # chocolatey/home
+    # chocolatey/cla-assistant
   - files:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE.txt
@@ -145,10 +145,10 @@ group:
     repos: |
       chocolatey/rhino-licensing
     # chocolatey/choco
-      # chocolatey/ChocolateyGUI
-      # chocolatey/docs
-      # chocolatey/chocolatey-ansible
-      # chocolatey/home
+    # chocolatey/ChocolateyGUI
+    # chocolatey/docs
+    # chocolatey/chocolatey-ansible
+    # chocolatey/home
   - files:
       - source: .github/workflows/vote-for-issue.yml
         dest: .github/workflows/vote-for-issue.yml
@@ -166,5 +166,3 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
-
-
