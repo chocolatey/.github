@@ -39,8 +39,6 @@ group:
       chocolatey/chocolatey-ansible
       chocolatey/choco
       chocolatey/ChocolateyGUI
-      chocolatey/rhino-licensing
-      chocolatey/boxstarter
       chocolatey/home
       chocolatey/chocolatey-licensed-issues
     # chocolatey/copenhagen_theme
@@ -167,6 +165,7 @@ group:
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocolateyGUI
       chocolatey/home
+
 
 
 
