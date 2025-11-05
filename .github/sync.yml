@@ -25,6 +25,7 @@ group:
         dest: .github/workflows/label-sync.yml
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
+      chocolatey/blog
       chocolatey/boxstarter
       chocolatey/cChoco
       chocolatey/checksum
@@ -156,6 +157,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
