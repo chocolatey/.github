@@ -95,7 +95,7 @@
   description: "These are things that are handled by tools like Test-Kitchen."
 - name: "Invalid / Not Issue / No repro / Not Implementing"
   color: "EB6420"
-  aliases: ["wontfix", "Wrong Repository", "Not An Issue / Invalid", "Not Implementing"]
+  aliases: ["wontfix", "Wrong Repository", "Not An Issue / Invalid", "Not Implementing", "Not Issue / Cant Repro / Not Implement / Invalid"]
 - name: "invalid"
   color: "E89819"
   description: "This is used to mark Hacktoberfest PR's as invalid."
@@ -128,6 +128,7 @@
 - name: "Question"
   color: "EB6420"
   description: "Issues opened for asking questions. These should be converted to discussions."
+  aliases: ["Discussion"]
 - name: "Requires Upstream Change"
   color: "E10D60"
   description: "Requires changes to a different location once issue is fixed or implemented."
@@ -152,6 +153,7 @@
 - name: "Area - Refactor"
   color: "9400D3"
   description: "Issues that represent refactoring code for maintainability."
+
 
 
 
