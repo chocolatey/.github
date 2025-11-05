@@ -32,6 +32,7 @@ group:
       chocolatey/choco
       chocolatey/choco-design-system
       chocolatey/ChocoCCM
+      chocolatey/chocolateyfest
       chocolatey/ChocolateyGUI
       chocolatey/Chocolatey.BestPractices
       chocolatey/Chocolatey.Cake.Recipe
@@ -158,6 +159,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
