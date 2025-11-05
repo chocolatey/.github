@@ -38,6 +38,7 @@ group:
       chocolatey/ChocoMEM
       chocolatey/docs
       chocolatey/home
+      chocolatey/img
       chocolatey/NuGet.Client
       chocolatey/nuget-chocolatey
       chocolatey/rhino-licensing
@@ -155,6 +156,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
