@@ -28,6 +28,7 @@ group:
       chocolatey/boxstarter
       chocolatey/checksum
       chocolatey/choco
+      chocolatey/ChocoCCM
       chocolatey/ChocolateyGUI
       chocolatey/Chocolatey.BestPractices
       chocolatey/Chocolatey.Cake.Recipe
@@ -46,7 +47,6 @@ group:
     # chocolatey/choco-quickstart-scripts
     # chocolatey/boxstarter.org
     # chocolatey/cChoco
-    # chocolatey/ChocoCCM
     # chocolatey/shimgen
     # chocolatey/nuget-chocolatey
     # chocolatey/NuGet.Server-chocolatey
@@ -164,6 +164,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
