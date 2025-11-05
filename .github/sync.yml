@@ -39,6 +39,7 @@ group:
       chocolatey/chocolatey-ansible
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocoMEM
+      chocolatey/copenhagen_theme
       chocolatey/docs
       chocolatey/home
       chocolatey/img
@@ -48,7 +49,6 @@ group:
       chocolatey/VirusTotal.NET
       chocolatey-community/chocolatey-au
       chocolatey-community/chocolatey-community-validation
-    # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
     # chocolatey/boxstarter.org
@@ -159,6 +159,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
