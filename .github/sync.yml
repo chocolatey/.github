@@ -30,6 +30,7 @@ group:
       chocolatey/cChoco
       chocolatey/checksum
       chocolatey/choco
+      chocolatey/choco-design-system
       chocolatey/ChocoCCM
       chocolatey/ChocolateyGUI
       chocolatey/Chocolatey.BestPractices
@@ -157,6 +158,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
