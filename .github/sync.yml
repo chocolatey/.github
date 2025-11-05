@@ -34,6 +34,7 @@ group:
       chocolatey/Chocolatey.Cake.Recipe
       chocolatey/chocolatey-ansible
       chocolatey/chocolatey-licensed-issues
+      chocolatey/ChocoMEM
       chocolatey/docs
       chocolatey/home
       chocolatey/NuGet.Client
@@ -154,6 +155,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
