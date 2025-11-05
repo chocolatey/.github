@@ -44,19 +44,9 @@ group:
     # chocolatey/copenhagen_theme
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
-    # chocolatey/choco-quickstart-scripts
     # chocolatey/boxstarter.org
     # chocolatey/cChoco
-    # chocolatey/shimgen
     # chocolatey/nuget-chocolatey
-    # chocolatey/NuGet.Server-chocolatey
-    # chocolatey/chocolatey-workshop
-    # chocolatey/CloudCreate
-    # chocolatey/chocolatey-workshop-organizational-use
-    # chocolatey/chocolatey-workshop-internalizer
-    # chocolatey/chocolatey-environments
-    # chocolatey/cla-assistant
-    # chocolatey/puppet-chocolatey-handsonlab
   - files:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE
@@ -164,6 +154,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
