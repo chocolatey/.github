@@ -26,6 +26,7 @@ group:
         replace: false # we do not want to replace the file, in case of customizations
     repos: |
       chocolatey/boxstarter
+      chocolatey/cChoco
       chocolatey/checksum
       chocolatey/choco
       chocolatey/ChocoCCM
@@ -46,7 +47,6 @@ group:
     # chocolatey/choco-theme
     # chocolatey/chocolatey.org
     # chocolatey/boxstarter.org
-    # chocolatey/cChoco
     # chocolatey/nuget-chocolatey
   - files:
     - source: .github/licenses/apache-2.0.txt
@@ -155,6 +155,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
