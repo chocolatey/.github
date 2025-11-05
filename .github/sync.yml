@@ -27,6 +27,7 @@ group:
     repos: |
       chocolatey/blog
       chocolatey/boxstarter
+      chocolatey/boxstarter.org
       chocolatey/cChoco
       chocolatey/checksum
       chocolatey/choco
@@ -51,7 +52,6 @@ group:
       chocolatey-community/chocolatey-au
       chocolatey-community/chocolatey-community-validation
     # chocolatey/choco-theme
-    # chocolatey/boxstarter.org
   - files:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE
@@ -159,6 +159,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
