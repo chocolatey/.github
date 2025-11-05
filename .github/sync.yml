@@ -36,6 +36,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/Chocolatey.BestPractices
       chocolatey/Chocolatey.Cake.Recipe
+      chocolatey/chocolatey.org
       chocolatey/chocolatey-ansible
       chocolatey/chocolatey-licensed-issues
       chocolatey/ChocoMEM
@@ -50,7 +51,6 @@ group:
       chocolatey-community/chocolatey-au
       chocolatey-community/chocolatey-community-validation
     # chocolatey/choco-theme
-    # chocolatey/chocolatey.org
     # chocolatey/boxstarter.org
   - files:
     - source: .github/licenses/apache-2.0.txt
@@ -159,6 +159,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
