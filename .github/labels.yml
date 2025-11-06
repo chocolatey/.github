@@ -153,6 +153,10 @@
 - name: "Area - Refactor"
   color: "9400D3"
   description: "Issues that represent refactoring code for maintainability."
+- name: "Spike"
+  color: "FF78CB"
+  description: "This is an investigation into how something works, so allow subsequent work to happen."
+
 
 
 
