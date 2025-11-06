@@ -156,6 +156,10 @@
 - name: "Spike"
   color: "FF78CB"
   description: "This is an investigation into how something works, so allow subsequent work to happen."
+- name: "REQUIRES NEW SIGNATURE"
+  color: "B60205"
+  description: "This issue updates some files with an Authenticode Signature and it needs updated."  
+
 
 
 
