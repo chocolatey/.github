@@ -32,6 +32,7 @@ group:
       chocolatey/checksum
       chocolatey/choco
       chocolatey/choco-design-system
+      chocolatey/choco-theme
       chocolatey/ChocoCCM
       chocolatey/chocolateyfest
       chocolatey/ChocolateyGUI
@@ -51,7 +52,6 @@ group:
       chocolatey/VirusTotal.NET
       chocolatey-community/chocolatey-au
       chocolatey-community/chocolatey-community-validation
-    # chocolatey/choco-theme
   - files:
     - source: .github/licenses/apache-2.0.txt
       dest: LICENSE
@@ -159,6 +159,7 @@ group:
       chocolatey/ChocolateyGUI
       chocolatey/chocolatey-licensed-issues
       chocolatey/home
+
 
 
 
