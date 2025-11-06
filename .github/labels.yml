@@ -58,8 +58,6 @@
 - name: "Customer"
   color: "006B75"
   description: "Bug reported or feature requested by a licensed customer of Chocolatey."
-- name: "Detail Required"
-  color: "9C772F"
 - name: "Documentation"
   color: "BFE5BF"
   description: "Issues for changes that only need to change documentation."
@@ -159,6 +157,7 @@
 - name: "REQUIRES NEW SIGNATURE"
   color: "B60205"
   description: "This issue updates some files with an Authenticode Signature and it needs updated."  
+
 
 
 
