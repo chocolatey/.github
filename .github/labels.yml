@@ -157,6 +157,7 @@
 - name: "REQUIRES NEW SIGNATURE"
   color: "B60205"
   description: "This issue updates some files with an Authenticode Signature and it needs updated."
-- name: "Clickup - Backlog"
+- name: "ClickUp - Backlog"
   color: "EEE600"
   description: "Used when syncing issues between GitHub and Clickup."
+
