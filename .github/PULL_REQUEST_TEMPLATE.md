@@ -8,6 +8,7 @@ A summary of our expectations:
  - You are able to sign the Contributor License Agreement (CLA).
  - YOUR GIT COMMIT MESSAGE FORMAT IS EXTREMELY IMPORTANT. We have a very defined expectation for this format and are sticklers about it. Really, READ the entire Contributing document. It will save you and us pain.
  - Do not reformat code, it makes it hard to see what has changed. Leave the formatting to us.
+ - You have read and can confirm the completion of the [Definition of Done](https://github.com/chocolatey/home/blob/main/definition-of-done.md).
 
 THANKS! We appreciate you reading the entire Contributing document and not just scanning through it.
 
@@ -57,6 +58,7 @@ Please remove all comments before submitting.
 * [ ] Tests to cover my changes, have been added.
 * [ ] All new and existing tests passed?
 * [ ] PowerShell code changes: PowerShell v3 compatibility checked?
+* [ ] All items are complete on the [Definition of Done](https://github.com/chocolatey/home/blob/main/definition-of-done.md).
 
 ## Related Issue
 <!-- Make sure you have raised an issue for this pull request before
