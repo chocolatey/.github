@@ -1,7 +1,7 @@
 <!--
 BEFORE YOU CREATE A PULL REQUEST:
 
-Ensure you have read over [CONTRIBUTING.md](./CONTRIBUTING.md). We provide VERY defined guidance (as such, we strongly adhere to it).
+Ensure you have read over [CONTRIBUTING.md](https://github.com/chocolatey/choco/blob/develop/CONTRIBUTING.md). We provide VERY defined guidance (as such, we strongly adhere to it).
 
 A summary of our expectations:
  - You are not submitting a pull request from your MASTER / MAIN branch.
